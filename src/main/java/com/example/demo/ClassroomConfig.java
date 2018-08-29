@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * @author leon on 8/27/18.
  */
-@Configuration
+//@Configuration
 public class ClassroomConfig {
     @Bean
     public Classroom currentCohort(

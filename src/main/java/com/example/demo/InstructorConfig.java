@@ -11,7 +11,7 @@ import java.util.Arrays;
 /**
  * @author leon on 8/27/18.
  */
-@Configuration
+//@Configuration
 public class InstructorConfig {
     @Bean
     public InstructorRepository tcUsaInstructors(InstructorRepository instructors) {

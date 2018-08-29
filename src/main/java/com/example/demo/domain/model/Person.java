@@ -4,13 +4,14 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Inheritance;
 import javax.persistence.InheritanceType;
+import java.io.Serializable;
 
 /**
  * @author leon on 8/27/18.
  */
 @Entity
 @Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
-public class Person {
+public class Person implements Serializable {
     @Id
     private Long id;
     private String name;
